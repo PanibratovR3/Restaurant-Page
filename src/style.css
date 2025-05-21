@@ -37,7 +37,7 @@ button {
     padding-bottom: 70px;
 }
 
-#content > div {
+#content > .card {
     margin: 10px 150px;
     border: 2px solid black;
     background-color: lightblue;
@@ -66,6 +66,12 @@ button {
     text-align: center;
 }
 
+.card-header {
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
 ul {
     text-align: center;
     margin: 20px 0;
