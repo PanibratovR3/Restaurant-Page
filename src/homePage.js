@@ -7,9 +7,11 @@ import {
 
 function drawHomePage() {
   const mainPage = document.querySelector("#content");
-  while (mainPage.firstChild) {
-    let element = mainPage.firstChild;
-    mainPage.removeChild(element);
+  if (contentField.hasChildNodes()) {
+    while (contentField.firstChild) {
+      const element = contentField.firstChild;
+      contentField.removeChild(element);
+    }
   }
   const restaurantNameCard = document.createElement("div");
   restaurantNameCard.classList.add("card");
