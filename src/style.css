@@ -76,6 +76,7 @@ button {
     text-align: center;
     padding-bottom: 10px;
 }
+
 ul {
     text-align: center;
     margin: 20px 0;
@@ -84,7 +85,7 @@ ul {
 }
 
 .restaurant-address {
-    padding: 20px;
+    padding: 50px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -160,4 +161,46 @@ img.menu-icon {
     width: 1750px;
     padding: 10px;
     font-size: 4.5rem;
+}
+
+.contact-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.contact-row {
+    display: flex;
+    padding: 30px;
+}
+
+.contact-job-position-label {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.contact-email-label {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.contact-job-position {
+    font-size: 2rem;
+    padding-left: 3px;
+}
+
+.contact-email {
+    font-size: 2rem;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.contact-phone-label {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.contact-phone {
+    font-size: 2rem;
+    padding-left: 10px;
 }
