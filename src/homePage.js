@@ -4,6 +4,7 @@ import {
   schedule,
   restaurantSuggestions,
 } from "./homePageInfo.js";
+import "./style.css";
 
 function drawHomePage() {
   const mainPage = document.querySelector("#content");

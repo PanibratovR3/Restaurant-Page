@@ -1,4 +1,5 @@
 import { location, employees } from "./aboutPageInfo.js";
+import "./style.css";
 
 function drawAboutPage() {
   const contentField = document.querySelector("#content");

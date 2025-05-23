@@ -1,4 +1,10 @@
 import { beverages, mainDishes, sides } from "./menuPageInfo.js";
+import "./style.css";
+import alcoholPic from "./images/alcohol.png";
+import coffeePic from "./images/coffee.png";
+import nonAlcoholPic from "./images/non-alcohol.png";
+import mainFoodPic from "./images/main_food.png";
+import sideFoodPic from "./images/side_food.png";
 
 function drawMenuPage() {
   const contentField = document.querySelector("#content");
@@ -8,8 +14,6 @@ function drawMenuPage() {
       contentField.removeChild(element);
     }
   }
-
-  console.log(contentField);
 
   const menuHeader = document.createElement("div");
   menuHeader.classList.add("main-menu-header");
@@ -50,13 +54,13 @@ function drawMenuPage() {
     beverageImage.classList.add("menu-icon");
     switch (beverage.type) {
       case "alcohol":
-        beverageImage.src = "images/alcohol.png";
+        beverageImage.src = alcoholPic;
         break;
       case "non-alcohol":
-        beverageImage.src = "images/non-alcohol.png";
+        beverageImage.src = nonAlcoholPic;
         break;
       case "coffee":
-        beverageImage.src = "images/coffee.png";
+        beverageImage.src = coffeePic;
         break;
     }
     beverageCardIconPlaceholder.appendChild(beverageImage);
@@ -101,7 +105,7 @@ function drawMenuPage() {
     mainDishCardIconPlaceholder.classList.add("menu-icon-placeholder");
     const mainDishImage = document.createElement("img");
     mainDishImage.classList.add("menu-icon");
-    mainDishImage.src = "images/main_food.png";
+    mainDishImage.src = mainFoodPic;
     mainDishCardIconPlaceholder.appendChild(mainDishImage);
     mainDishCardInformationIcon.appendChild(mainDishCardIconPlaceholder);
     mainDishCardInfoContainer.appendChild(mainDishCardInformationIcon);
@@ -143,7 +147,7 @@ function drawMenuPage() {
     sideCardIconPlaceholder.classList.add("menu-icon-placeholder");
     const sideImage = document.createElement("img");
     sideImage.classList.add("menu-icon");
-    sideImage.src = "images/side_food.png";
+    sideImage.src = sideFoodPic;
     sideCardIconPlaceholder.appendChild(sideImage);
     sideCardInformationIcon.appendChild(sideCardIconPlaceholder);
     sideCardInfoContainer.appendChild(sideCardInformationIcon);

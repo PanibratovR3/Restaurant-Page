@@ -1,6 +1,7 @@
 import { drawHomePage } from "./homePage.js";
 import { drawMenuPage } from "./menuPage.js";
 import { drawAboutPage } from "./aboutPage.js";
+import "./style.css";
 
 const [homeButton, menuButton, aboutButton] =
   document.querySelectorAll(".navigation");
