@@ -40,7 +40,7 @@ button {
     margin: 10px 150px;
     border: 2px solid black;
     background-color: lightblue;
-    color: brown;
+    color: green;
     border-radius: 15px;
 }
 
@@ -150,7 +150,7 @@ img.menu-icon {
     font-weight: bold;
     border: 2px solid black;
     background-color: lightblue;
-    color: brown;
+    color: green;
     border-radius: 15px;
     margin: 0 50px;
     width: 1750px;
