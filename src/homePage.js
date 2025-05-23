@@ -2,7 +2,7 @@ import {
   restaurantNameText,
   restaurantInfoText,
   schedule,
-  restaurantAddress,
+  restaurantSuggestions,
 } from "./homePageInfo.js";
 
 function drawHomePage() {
@@ -41,18 +41,18 @@ function drawHomePage() {
   scheduleCard.appendChild(scheduleList);
   mainPage.appendChild(scheduleCard);
 
-  const locationCard = document.createElement("div");
-  locationCard.classList.add("card");
-  locationCard.classList.add("restaurant-address");
-  const locationHeader = document.createElement("div");
-  locationHeader.classList.add("card-header");
-  locationHeader.textContent = "Any ideas?";
-  locationCard.appendChild(locationHeader);
-  const locationText = document.createElement("div");
-  locationText.classList.add("address");
-  locationText.textContent = restaurantAddress;
-  locationCard.appendChild(locationText);
-  mainPage.appendChild(locationCard);
+  const suggestionCard = document.createElement("div");
+  suggestionCard.classList.add("card");
+  suggestionCard.classList.add("restaurant-address");
+  const suggestionHeader = document.createElement("div");
+  suggestionHeader.classList.add("card-header");
+  suggestionHeader.textContent = "Any ideas?";
+  suggestionCard.appendChild(suggestionHeader);
+  const suggestionText = document.createElement("div");
+  suggestionText.classList.add("address");
+  suggestionText.textContent = restaurantSuggestions;
+  suggestionCard.appendChild(suggestionText);
+  mainPage.appendChild(suggestionCard);
 }
 
 export { drawHomePage };
