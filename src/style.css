@@ -174,33 +174,17 @@ img.menu-icon {
     padding: 30px;
 }
 
-.contact-job-position-label {
-    font-weight: 900;
-    font-size: 2rem;
-}
-
-.contact-email-label {
-    font-weight: 700;
-    font-size: 2rem;
-}
-
-.contact-job-position {
-    font-size: 2rem;
-    padding-left: 3px;
-}
-
-.contact-email {
-    font-size: 2rem;
-    padding-left: 10px;
-    font-style: italic;
-}
-
-.contact-phone-label {
+.contact-label {
     font-weight: bold;
     font-size: 2rem;
 }
 
-.contact-phone {
+
+.contact-field {
     font-size: 2rem;
     padding-left: 10px;
+}
+
+.email {
+    font-style: italic;
 }
