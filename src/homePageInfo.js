@@ -35,5 +35,5 @@ const schedule = [
 ];
 
 const restaurantAddress =
-  "107 Piazzetta Scalette Rubiani, Sant'Egidio Del Montalbino, Salerno";
+  "If you have any complaints or suggestions, feel free to share it with our employees. All contacts you can find in tab 'About'.";
 export { restaurantNameText, restaurantInfoText, schedule, restaurantAddress };

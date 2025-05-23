@@ -7,10 +7,10 @@ import {
 
 function drawHomePage() {
   const mainPage = document.querySelector("#content");
-  if (contentField.hasChildNodes()) {
-    while (contentField.firstChild) {
-      const element = contentField.firstChild;
-      contentField.removeChild(element);
+  if (mainPage.hasChildNodes()) {
+    while (mainPage.firstChild) {
+      const element = mainPage.firstChild;
+      mainPage.removeChild(element);
     }
   }
   const restaurantNameCard = document.createElement("div");
@@ -46,7 +46,7 @@ function drawHomePage() {
   locationCard.classList.add("restaurant-address");
   const locationHeader = document.createElement("div");
   locationHeader.classList.add("card-header");
-  locationHeader.textContent = "Location";
+  locationHeader.textContent = "Any ideas?";
   locationCard.appendChild(locationHeader);
   const locationText = document.createElement("div");
   locationText.classList.add("address");
