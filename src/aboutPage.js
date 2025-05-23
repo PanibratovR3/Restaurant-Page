@@ -24,7 +24,6 @@ function drawAboutPage() {
   locationAddress.textContent = location;
   locationCard.appendChild(locationAddress);
   contentField.appendChild(locationCard);
-  console.log(contentField);
 
   for (const employee of employees) {
     const employeeInfoCard = document.createElement("div");
